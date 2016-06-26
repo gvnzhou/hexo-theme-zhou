@@ -1,23 +1,21 @@
 # Zhou
 
-一个风格简洁的Hexo主
+> 一个风格简洁的Hexo主题
 
 [在线预览 Preview](http://www.javion.me/)
 
 
-## 下载 Install
+## 下载 
 
 ``` bash
 $ git clone https://github.com/javion25/hexo-theme-zhou/
 ```
 
-**Zhou requires Hexo 2.4 and above.**
+## 使用 
 
-## 使用 Enable
+将 `_config.yml` 中的 `theme` 修改为 `zhou`.
 
-Modify `theme` setting in `_config.yml` to `zhou`.
-
-## 配置 Configuration
+## 配置 
 
 ``` yml
 # Header
