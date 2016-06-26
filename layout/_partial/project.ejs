@@ -1,0 +1,133 @@
+<article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    <%- partial('post/gallery') %>
+    <% if (post.link || post.title){ %>
+      <header class="article-header">
+        <%- partial('post/title', {class_name: 'article-title'}) %>
+      </header>
+    <% } %>
+    <div class="article-entry" itemprop="articleBody">
+      <div id="masonry" class="container-fluid">
+      <div class="box">
+          <img src="http://7xkwup.com1.z0.glb.clouddn.com/2016-06-21_193905.jpg">
+          <div class="caption">
+            <h2>王牌特工</h2>
+            <p>完成时间：2016.06-至今</p>
+            <p>主要技术：HTML5、CSS3和Javascript</p>
+            <p> 一个基于Canvas开发的移动端小游戏。</p>
+            <p><a href="https://github.com/javion25/PageScroll.js" target="_blank">代码地址</a><a href="http://javion25.github.io/PageScroll.js/demo/demo.html" target="_blank">demo地址</a></p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="http://7xkwup.com1.z0.glb.clouddn.com/2016-06-21_194216.jpg">
+          <div class="caption">
+            <h2>B2C电子商务网站</h2>
+            <p>完成时间：2016.04-2015.05</p>
+            <p>主要技术：HTML、CSS、jQuery和ThinkPHP</p>
+            <p> 基于ThinkPHP框架，使用Mysql数据库完成的电子商务网站。网站分前后台两部分。前台界面可以浏览商品，注册成为网站会员，具有购物车功能，订单功能和留言板功能。后台可以管理用户、商品、订单和留言。</p>
+            <p><a href="https://github.com/javion25/HSLShop" target="_blank">代码地址</a><a href="http://hslshop.javion.me/" target="_blank">demo地址</a></p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="http://7xkwup.com1.z0.glb.clouddn.com/2016-06-21_190900.jpg">
+          <div class="caption">
+            <h2>百度前端学院第二阶段</h2>
+            <p>完成时间：2016.05</p>
+            <p>主要技术：Javascript</p>
+            <p> 第二阶段的主要目标是帮助大家 了解、认识、学习、掌握Javascript。</p>
+            <p><a href="https://github.com/bdSpring/zhou-task02" target="_blank">代码及demo地址</a></p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="http://7xkwup.com1.z0.glb.clouddn.com/2016-05-05_170657.jpg">
+          <div class="caption">
+            <h2>百度前端学院第一阶段</h2>
+            <p>完成时间：2016.04</p>
+            <p>主要技术：HTML5和CSS3</p>
+            <p> 第一阶段的主要目标是帮助大家 了解、认识、学习、掌握HTML及CSS。</p>
+            <p><a href="https://github.com/bdSpring/zhou-task01" target="_blank">代码及demo地址</a></p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="http://7xkwup.com1.z0.glb.clouddn.com/2016-06-26_212025.jpg">
+          <div class="caption">
+            <h2>Hexo主题-zhou</h2>
+            <p>完成时间：2016.05</p>
+            <p>主要技术：stylus、EJS和Javascript</p>
+            <p> 一个Hexo主题，由默认主题修改而来，样式参考boostrap的样式风格。</p>
+            <p><a href="https://github.com/bdSpring/zhou-task01" target="_blank">代码及demo地址</a></p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="http://7xkwup.com1.z0.glb.clouddn.com/2016-06-26_212706.jpg">
+          <div class="caption">
+            <h2>在线Web图片编辑器</h2>
+            <p>完成时间：2016.01-2016.02</p>
+            <p>主要技术：HTML5、canvas、CSS3和Javascript</p>
+            <p> 用户使用该在线图片编辑器可以实现漫画分镜的制作。独立负责完成该编辑器的开发，通过学习canvas结合原生js，实现多个图片移动、旋转、放大缩小进行组合，生成新图片的功能。</p>
+            <p><a href="https://github.com/javion25/WebPictureEditor" target="_blank">代码地址</a><a href="http://javion.me/WebPictureEditor/index.html" target="_blank">demo地址</a></p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="http://7xkwup.com1.z0.glb.clouddn.com/picCarousel.png">
+          <div class="caption">
+            <h2>PicCarousel.js</h2>
+            <p>完成时间：2015.12</p>
+            <p>主要技术：HTML、CSS和jQuery</p>
+            <p>基于jQuery的图片轮播js插件。支持手动及自动轮播，多种对齐方式，兼容主流浏览器。</p>
+            <p><a href="https://github.com/javion25/PicCarousel.js" target="_blank">代码地址</a><a href="http://javion25.github.io/PicCarousel.js/demo/demo.html" target="_blank">demo地址</a></p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="http://7xkwup.com1.z0.glb.clouddn.com/scrollpage.gif">
+          <div class="caption">
+            <h2>PageScroll.js</h2>
+            <p>完成时间：2015.11</p>
+            <p>主要技术：HTML、CSS和jQuery</p>
+            <p>基于jQuery的网页全屏滚动js插件。通过滚轮控制整个页面滚动，支持嵌套及循环滚动，兼容主流浏览器。</p>
+            <p><a href="https://github.com/javion25/PageScroll.js" target="_blank">代码地址</a><a href="http://javion25.github.io/PageScroll.js/demo/demo.html" target="_blank">demo地址</a></p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="http://7xkwup.com1.z0.glb.clouddn.com/cheku.png">
+          <div class="caption">
+            <h2>车酷app官网</h2>
+            <p>完成时间：2015.07-2015.08</p>
+            <p>主要技术：HTML、CSS、Javascript和jQuery</p>
+            <p>实习期间负责公司官方网站前端页面的设计与开发，使用html+css+js编写页面，完成注册、登录、提交商户信息等功能。</p>
+            <p><a href="http://www.chekuapp.com" target="_blank">官网地址</a></p>
+          </div>
+        </div>
+         
+      </div>
+    </div>
+    <footer class="article-footer">
+      <!-- <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a> -->
+      <% if (post.comments && config.disqus_shortname){ %>
+        <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link"><%= __('comment') %></a>
+      <% } %>
+      <%- partial('post/tag') %>
+    </footer>
+  </div>
+</article>
+
+<% if (!index && post.comments && config.duoshuo_shortname){ %>
+  <section id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="<%= post.layout %>-<%= post.slug %>" data-title="<%= post.title %>" data-url="<%= page.permalink %>"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'<%= config.duoshuo_shortname %>'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  </section>
+  <% } %>

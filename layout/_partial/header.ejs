@@ -1,0 +1,26 @@
+<header id="header">
+  <div id="header-inner" class="inner">
+    <div class="header-title"> 
+      <!-- <img src="<%- url_for(theme.logo_url) %>" alt="logo"> -->
+      <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
+    </div>
+    <nav class="main-nav">
+      <% for (var i in theme.menu){ %>
+        <a class="main-nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+      <% } %>
+    </nav>
+    
+    <button class="navbar-toggle">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    
+    <ul class="navbar-nav">
+      <% for (var i in theme.menu){ %>
+        <li><a class="main-nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+      <% } %>
+    </ul>
+
+  </div>
+</header>

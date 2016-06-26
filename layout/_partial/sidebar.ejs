@@ -1,0 +1,9 @@
+<aside id="sidebar"<% if (theme.sidebar === 'bottom'){ %> class="outer"<% } %>>
+  <!-- <% theme.widgets.forEach(function(widget){ %>
+    <%- partial('_widget/' + widget) %>
+  <% }) %> -->
+  <%- partial('_widget/archive') %>
+  <%- partial('_widget/category') %>
+  <%- partial('_widget/tagcloud') %>
+  <%- partial('_widget/recent_posts') %>
+</aside>

@@ -1,0 +1,48 @@
+#sidebar
+  @media mq-normal
+    column(sidebar-column)
+
+.widget-wrap
+  margin: block-margin 0
+
+.widget-title
+  padding: 8px 10px
+  color: #FFFFFF
+  font-size: 16px
+  margin-bottom: 7px
+  font-weight: bold
+  -webkit-text-shadow: 0 1px 1px rgba(0,0,0,.3)
+  -moz-text-shadow: 0 1px 1px rgba(0,0,0,.3)
+  text-shadow: 0 1px 1px rgba(0,0,0,.3)
+  border-radius: 5px
+  background-color: #222222
+
+.widget
+  color: color-sidebar-text
+  text-shadow: 0 1px #fff
+  background: #FFFFFF
+  box-shadow: 0 -1px 4px color-widget-border inset
+  border: 1px solid color-widget-border
+  padding: 15px
+  border-radius: 3px
+  a
+    // color: color-link
+    font-size: 16px
+    color: #428bca
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+  ul, ol, dl
+    li
+      padding: 3px 0
+    ul, ol, dl
+      margin-left: 15px
+      list-style: disc
+      li:after
+        position: absolute
+        content: "·"
+        display: block
+        width: 10px
+        height: 10px
+        background-color: red
+        test()
