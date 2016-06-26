@@ -1,29 +1,23 @@
-# Landscape
+# Zhou
 
-A brand new default theme for [Hexo].
+一个风格简洁的Hexo主题。
 
-- [Preview](http://hexo.io/hexo-theme-landscape/)
+- [Demo](http://www.javion.me/)
 
 ## Installation
 
 ### Install
 
 ``` bash
-$ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
+$ git clone https://github.com/javion25/hexo-theme-zhou/
 ```
 
-**Landscape requires Hexo 2.4 and above.**
+**Zhou requires Hexo 2.4 and above.**
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `landscape`.
+Modify `theme` setting in `_config.yml` to `zhou`.
 
-### Update
-
-``` bash
-cd themes/landscape
-git pull
-```
 
 ## Configuration
 
@@ -31,7 +25,10 @@ git pull
 # Header
 menu:
   Home: /
-  Archives: /archives
+  Blog: /archives
+  Project: /project
+  About: /about
+logo_url: /img/logo.png
 rss: /atom.xml
 
 # Content
@@ -44,26 +41,27 @@ widgets:
 - category
 - tag
 - tagcloud
-- archives
+- archive
 - recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: true
 
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
 twitter:
 google_plus:
+fb_admins:
+fb_app_id:
 ```
-
-- **menu** - Navigation menu
-- **rss** - RSS link
-- **excerpt_link** - "Read More" link at the bottom of excerpted articles. `false` to hide the link.
-- **fancybox** - Enable [Fancybox]
-- **sidebar** - Sidebar style. You can choose `left`, `right`, `bottom` or `false`.
-- **widgets** - Widgets displaying in sidebar
-- **google_analytics** - Google Analytics ID
-- **favicon** - Favicon path
-- **twitter** - Twiiter ID
-- **google_plus** - Google+ ID
 
 ## Features
 
